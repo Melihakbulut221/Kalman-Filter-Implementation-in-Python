@@ -16,5 +16,8 @@ Also there is one more thing to estimate which is covarience. Covariance is impo
 
 Also we need to set initial state estimates in kalman filter. For example; if we use kalman filter to fuse IMU and Camera initial states can be drones' departure coordinates. 
 
-I take this graph from MATLAB Kalman filters video: 
+
+
+
+
 ![image](https://user-images.githubusercontent.com/57303760/215336384-38aaa822-067c-4795-9b1d-b2baebb76a21.png)
