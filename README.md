@@ -14,3 +14,4 @@ Next step is predicted using new measurements and a priori estime(xhat-). We can
 
 Also there is one more thing to estimate which is covarience. Covariance is important because it indicates how the prediction is disturbed. Covariance basically indicates the sharpness of the probability density function.
 
+Also we need to set initial state estimates in kalman filter. For example; if we use kalman filter to fuse IMU and Camera initial states can be drones' departure coordinates. 
