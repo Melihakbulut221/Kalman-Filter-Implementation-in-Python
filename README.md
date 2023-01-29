@@ -21,3 +21,8 @@ Also we need to set initial state estimates in kalman filter. For example; if we
 
 
 ![image](https://user-images.githubusercontent.com/57303760/215336384-38aaa822-067c-4795-9b1d-b2baebb76a21.png)
+
+
+[Disclaimer: I take this image from MATLAB Kalman filtering video.]
+
+
