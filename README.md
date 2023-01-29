@@ -2,10 +2,10 @@
 I designed Kalman Filter algorithm on Python programming language. This repository will be extended later through Extended Kalman Filter and Unscented Kalman Filter.
 
 Kalman filter has basically 2 step.
-1) Update Step 
-2) Measurement Step
+1) Prediction Step 
+2) Update (Measurement) Step
 
-In update step;
+In prediction step;
 Next step is predicted using the previous step. We can indicate this step wih --> xhat-
 "-" means a priori estimate.
 
@@ -14,7 +14,7 @@ Next step is predicted using new measurements and a priori estime(xhat-). We can
 
 Also there is one more thing to estimate which is covarience. Covariance is important because it indicates how the prediction is disturbed. Covariance basically indicates the sharpness of the probability density function.
 
-Also we need to set initial state estimates in kalman filter. For example; if we use kalman filter to fuse IMU and Camera initial states can be drones' departure coordinates. 
+Also we need to set initial state estimates in Kalman Filter. For example; if we use kalman filter to fuse IMU and Camera initial states can be drones' departure coordinates. 
 
 
 
@@ -24,5 +24,8 @@ Also we need to set initial state estimates in kalman filter. For example; if we
 
 
 [Disclaimer: I take this image from MATLAB Kalman filtering video.]
+
+
+
 
 
